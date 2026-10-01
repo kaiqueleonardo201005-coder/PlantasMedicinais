@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas Medicinais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌿 Plantas Medicinais</h1>
+        <p>Trabalho escolar</p>
+    </header>
+
+    <main>
+        <section class="introducao">
+            <h2>🌱 Plantas da nossa turma</h2>
+            <p>Pesquise pelo nome da planta ou pelo responsável.</p>
+
+            <div class="pesquisa">
+                <input
+                    type="text"
+                    id="campoPesquisa"
+                    placeholder="🔎 Pesquisar planta ou responsável..."
+                >
+            </div>
+        </section>
+
+        <section id="listaPlantas" class="lista-plantas">
+
+            <div class="planta" data-planta="Alho" data-aluno="Kaique, the best">
+                <div class="cabecalho-planta">
+                    <h3>🌿 Alho</h3>
+                    <span class="texto-animado">👤 Kaique, the best</span>
+
+                </div>
+
+                <div class="detalhes">
+                    <div class="foto-planta">
+                        <div class="foto-placeholder">📸 Foto do Alho</div>
+                    </div>
+
+                    <div class="informacoes">
+                        <h4>👤 Responsável</h4>
+                        <p>Kaique</p>
+
+                        <h4>📝 Perguntas e respostas</h4>
+                        <p class="sem-resposta">As respostas serão adicionadas aqui.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Guaco" data-aluno="Maria Eduarda">
+                <div class="cabecalho-planta">
+                    <h3>🌿 Guaco</h3>
+                    <span>👤 Maria Eduarda</span>
+                </div>
+
+                <div class="detalhes">
+                    <div class="foto-planta">
+                        <div class="foto-placeholder">📸 Foto do Guaco</div>
+                    </div>
+
+                    <div class="informacoes">
+                        <h4>👤 Responsável</h4>
+                        <p>Maria Eduarda</p>
+
+                        <h4>📝 Perguntas e respostas</h4>
+                        <p class="sem-resposta">As respostas serão adicionadas aqui.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Camomila" data-aluno="Janice">
+                <div class="cabecalho-planta">
+                    <h3>🌿 Camomila</h3>
+                    <span>👤 Janice</span>
+                </div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Camomila</div></div>
+                    <div class="informacoes">
+                        <h4>👤 Responsável</h4>
+                        <p>Janice</p>
+                        <h4>📝 Perguntas e respostas</h4>
+                        <p class="sem-resposta">As respostas serão adicionadas aqui.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Hortelã" data-aluno="João Antônio">
+                <div class="cabecalho-planta"><h3>🌿 Hortelã</h3><span>👤 João Antônio</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Hortelã</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>João Antônio</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Erva-cidreira" data-aluno="Joaquim">
+                <div class="cabecalho-planta"><h3>🌿 Erva-cidreira</h3><span>👤 Joaquim</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Erva-cidreira</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Joaquim</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Boldo" data-aluno="Joel">
+                <div class="cabecalho-planta"><h3>🌿 Boldo</h3><span>👤 Joel</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Boldo</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Joel</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Alecrim" data-aluno="Jopsher">
+                <div class="cabecalho-planta"><h3>🌿 Alecrim</h3><span>👤 Jopsher</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Alecrim</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Jopsher</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Gengibre" data-aluno="Kailane">
+                <div class="cabecalho-planta"><h3>🌿 Gengibre</h3><span>👤 Kailane</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Gengibre</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Kailane</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Babosa" data-aluno="Kleiton">
+                <div class="cabecalho-planta"><h3>🌿 Babosa</h3><span>👤 Kleiton</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Babosa</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Kleiton</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Erva-doce" data-aluno="Laizi">
+                <div class="cabecalho-planta"><h3>🌿 Erva-doce</h3><span>👤 Laizi</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Erva-doce</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Laizi</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Lavanda" data-aluno="Lara">
+                <div class="cabecalho-planta"><h3>🌿 Lavanda</h3><span>👤 Lara</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Lavanda</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Lara</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Calêndula" data-aluno="Laura">
+                <div class="cabecalho-planta"><h3>🌿 Calêndula</h3><span>👤 Laura</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Calêndula</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Laura</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Arnica" data-aluno="Lucas">
+                <div class="cabecalho-planta"><h3>🌿 Arnica</h3><span>👤 Lucas</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Arnica</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Lucas</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Capim-limão" data-aluno="Maria Laura">
+                <div class="cabecalho-planta"><h3>🌿 Capim-limão</h3><span>👤 Maria Laura</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Capim-limão</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Maria Laura</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Maracujá" data-aluno="Mariah">
+                <div class="cabecalho-planta"><h3>🌿 Maracujá</h3><span>👤 Mariah</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Maracujá</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Mariah</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Eucalipto" data-aluno="Mariana">
+                <div class="cabecalho-planta"><h3>🌿 Eucalipto</h3><span>👤 Mariana</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Eucalipto</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Mariana</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Canela" data-aluno="Mateus">
+                <div class="cabecalho-planta"><h3>🌿 Canela</h3><span>👤 Mateus</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Canela</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Mateus</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Cravo-da-índia" data-aluno="Muryelen">
+                <div class="cabecalho-planta"><h3>🌿 Cravo-da-índia</h3><span>👤 Muryelen</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Cravo-da-índia</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Muryelen</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Açafrão-da-terra" data-aluno="Nicoly">
+                <div class="cabecalho-planta"><h3>🌿 Açafrão-da-terra</h3><span>👤 Nicoly</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Açafrão-da-terra</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Nicoly</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Dente-de-leão" data-aluno="Henryke">
+                <div class="cabecalho-planta"><h3>🌿 Dente-de-leão</h3><span>👤 Henryke</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Dente-de-leão</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Henryke</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Sálvia" data-aluno="Gustavo">
+                <div class="cabecalho-planta"><h3>🌿 Sálvia</h3><span>👤 Gustavo</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Sálvia</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Gustavo</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Tília" data-aluno="Gabriela">
+                <div class="cabecalho-planta"><h3>🌿 Tília</h3><span>👤 Gabriela</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Tília</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Gabriela</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Poejo" data-aluno="Felipe">
+                <div class="cabecalho-planta"><h3>🌿 Poejo</h3><span>👤 Felipe</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Poejo</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Felipe</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Melissa" data-aluno="Enderson">
+                <div class="cabecalho-planta"><h3>🌿 Melissa</h3><span>👤 Enderson</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Melissa</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Enderson</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Assa-peixe" data-aluno="Davi">
+                <div class="cabecalho-planta"><h3>🌿 Assa-peixe</h3><span>👤 Davi</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Assa-peixe</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Davi</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Quebra-pedra" data-aluno="Arthur">
+                <div class="cabecalho-planta"><h3>🌿 Quebra-pedra</h3><span>👤 Arthur</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto do Quebra-pedra</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Arthur</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Babosa-de-jardim" data-aluno="Amanda">
+                <div class="cabecalho-planta"><h3>🌿 Babosa-de-jardim</h3><span>👤 Amanda</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Babosa-de-jardim</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Amanda</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+            <div class="planta" data-planta="Erva de São João" data-aluno="Yasmin">
+                <div class="cabecalho-planta"><h3>🌿 Erva de São João</h3><span>👤 Yasmin</span></div>
+                <div class="detalhes">
+                    <div class="foto-planta"><div class="foto-placeholder">📸 Foto da Erva de São João</div></div>
+                    <div class="informacoes"><h4>👤 Responsável</h4><p>Yasmin</p><h4>📝 Perguntas e respostas</h4><p class="sem-resposta">As respostas serão adicionadas aqui.</p></div>
+                </div>
+            </div>
+
+        </section>
+
+        <p id="semResultados" class="sem-resultados">Nenhuma planta encontrada.</p>
+    </main>
+
+    <footer>
+        <p>🌿 Trabalho escolar - Plantas Medicinais</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
